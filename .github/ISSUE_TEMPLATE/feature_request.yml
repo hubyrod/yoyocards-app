@@ -1,0 +1,27 @@
+name: Idée / Feature request
+description: Proposer une amélioration pour Yoyo · Suggest an idea or improvement for Yoyo
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci pour l'idée ! Les tickets sont **publics** : pas de donnée personnelle.
+
+        Thanks for the suggestion! Issues here are **public**: please don't include personal data or anything private.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Quel problème cela résoudrait-il ? · What problem would this solve?
+      description: La situation ou la gêne derrière l'idée · The situation or frustration behind the idea.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Ce que vous aimeriez · What would you like to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Autres pistes envisagées · Alternatives you've considered

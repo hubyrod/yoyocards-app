@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Aide Yoyo · Yoyo help
+    url: https://yoyocards.fr/aide?lang=fr
+    about: "Comment utiliser Yoyo · How to use Yoyo."
+  - name: Faille de sécurité ? N'ouvrez PAS de ticket public · Security vulnerability? Do NOT open a public issue
+    url: https://github.com/hubyrod/yoyocards-app#sécurité
+    about: "Écrivez en privé à hubyrod@pm.me · Report privately by email to hubyrod@pm.me."
